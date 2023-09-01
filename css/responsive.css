@@ -1,0 +1,77 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.navbar-header {
+  background: #ffffff none repeat scroll 0 0;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.secondary_logo > img {
+  float: none;
+}
+.secondary_logo {
+  text-align: center;
+}
+.social {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+.secondary_menu {
+  display: none;
+}
+.navbar-header {
+  background: #ffffff none repeat scroll 0 0;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.secondary_logo > img {
+  float: none;
+}
+.secondary_logo {
+  text-align: center;
+}
+.secondary_logo > img {
+  float: none;
+}
+.secondary_logo {
+  text-align: center;
+}
+.social {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+.secondary_menu {
+  display: none;
+}
+.navbar-nav > li {
+  display: block;
+  float: unset;
+}
+.navbar-nav {
+  float: left;
+}
+#mainmenu ul li ul {
+  text-align: left;
+}
+#mainmenu ul li ul li {
+  text-align: left;
+}
+#mainmenu ul {
+  text-align: left;
+}
+#mainmenu,.header_middle{
+  border-bottom: medium none;
+}
+.stricky-post {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
