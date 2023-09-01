@@ -3,7 +3,7 @@
 
 ### Codestar Framework Installation[https://github.com/Codestar/codestar-framework]
 ```php
-// in Function.php
+// in function.php
 require_once dirname( __FILE__ ) .'/cs-frameworkn/cs-framework.php';
 require_once dirname( __FILE__ ) .'/cs-frameworkn/admin-options.php';
 
